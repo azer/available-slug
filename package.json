@@ -1,0 +1,29 @@
+{
+  "name": "available-slug",
+  "version": "0.0.0",
+  "description": "Find an available slug for given text",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b -y '/my-api=http://localhost:8080' -l phantom -q"
+  },
+  "keywords": [
+    "slug"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/available-slug.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "format-date": "0.0.1",
+    "format-text": "0.0.3",
+    "serial-loop": "0.0.1",
+    "to-slug": "0.0.0",
+    "xhr": "^1.17.0"
+  },
+  "devDependencies": {
+    "circle": "0.0.9",
+    "prova": "^2.1.1"
+  }
+}
